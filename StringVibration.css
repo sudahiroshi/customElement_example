@@ -1,0 +1,35 @@
+body {
+  background-color: #fffffc;
+}
+#panel {
+  float: left;
+  margin-right: auto;
+  width: 180px;
+}
+#main {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 460px;
+}
+#header {
+  width: 640px;
+}
+.normal1 {
+  width: 80px;
+  height: 60px;
+  font-size: 16pt;
+}
+.clear {
+  font-size: 14pt;
+  width: 160px;
+  height: 30px;
+}
+#initial {
+  background-color: #b0f0b0;
+}
+
+#top{ position : absolute;
+      top : 440px;
+}

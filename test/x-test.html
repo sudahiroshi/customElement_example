@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script type="text/javascript" src="xtest.js"></script>
+</head>
+<body>
+  <template>
+    <div id="aaa">
+      <div id="panel_right">
+        <div>
+          <button type="button" id="start" class="normal">start</button>
+          <button type="button" id="stop" class="normal">stop</button>
+        </div>
+        <div>
+          <p>初期状態</p>
+          <button type="button" id="b01" class="size">0.1</button>
+          <button type="button" id="b02" class="size">0.2</button>
+          <button type="button" id="b03" class="size">0.3</button>
+          <button type="button" id="b04" class="size">0.4</button>
+          <button type="button" id="b05" class="size">0.5</button>
+        </div>
+        <div>
+          <p>描画</p>
+          <button id="moment" class="clear">moment</button>
+          <button id="overlap" class="clear">overlap</button>
+        </div>
+        <div>
+        <input id="slider" type="range" min="0.1" max="1.0" step="0.1" onchange="showValue()"/>
+          <span id="showRangeArea">0</span>
+        </div>
+      </div>
+
+
+      <div id="main_left">
+        <div id="area2">
+          <canvas class="myCanvas" id="initial" width="460" height="120"></canvas>
+        </div>
+        <div id="area1">
+          <canvas class="myCanvas" id="graph1" width="460" height="200"></canvas>
+          <canvas class="myCanvas" id="graph2" width="460" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+      <p id="innerdot"></p><p id="alldot"></p><p id="pi"></p>
+    </div>
+  </template>
+</body>
+</html>

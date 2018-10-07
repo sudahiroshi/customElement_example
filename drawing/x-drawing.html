@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script type="text/javascript" src="drawing.js"></script>
+  <style>
+
+  .myCanvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+  }
+  #area1 {
+    float: left;
+    position: relative;
+    width: 460px;
+    height: 200px;
+    background-color: #ffffc0;
+  }
+  #area2 {
+    float: left;
+    position: relative;
+    width: 460px;
+    height: 120px;
+    background-color: #ffffc0;
+    bottom: 5px;
+  }
+  </style>
+</head>
+<body>
+  <template>
+    <div id="area2">
+      <canvas class="myCanvas" id="initial" width="460" height="120"></canvas>
+    </div>
+    <div id="area1">
+      <canvas class="myCanvas" id="graph1" width="460" height="200"></canvas>
+      <canvas class="myCanvas" id="graph2" width="460" height="200"></canvas>
+    </div>
+  <p id="innerdot"></p><p id="alldot"></p><p id="pi"></p>
+  </template>
+</body>
+</html>
